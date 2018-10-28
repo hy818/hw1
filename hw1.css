@@ -1,0 +1,88 @@
+#first {
+    background-image: url("hw1asset/%E5%9F%A4%E5%A1%98%E9%AB%98%E7%95%AB%E8%B3%AA.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#second {
+    background-image: url("hw1asset/%E5%9F%A4%E5%A1%98%E9%AB%98%E7%95%AB%E8%B3%AA%E9%BB%91%E7%99%BD.jpg");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#third {
+    background-image: url("hw1asset/%E5%9F%A4%E5%A1%98%E5%88%86%E5%B8%83%E6%96%B0.png");
+    min-height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#first .row {
+    min-height: 600px;
+}
+
+#first .row div:last-child {
+    min-height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+#second .row {
+    min-height: 700px;
+
+}
+
+
+#second .row div:first-child {
+    min-height: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+
+}
+
+#third .row {
+    min-height:650px
+}
+
+#third .row div:first-child {
+    min-height: 650px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    
+}
+
+
+#third .row div:last-child {
+    min-height: 650px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white
+}
+
+p {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    height: 170px;
+    
+}
+
+
+
+
+#footer {
+    text-align: center;
+    color: #333;
+}
